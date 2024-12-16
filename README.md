@@ -7,15 +7,14 @@
 
 
 
-**Waiting List Spot On** is a web application designed to manage waiting lists for businesses, restaurants, or any service-based establishments. It allows customers to sign up for a spot on the waiting list and track their estimated wait times in real-time. This project was built using **React** for the frontend and **Flask** for the backend, with a seamless user interface for both customers and staff.
+**Waiting List Spot On** is a web application designed to help users find available parking spots quickly and easily. It allows users to sign up for a spot on a waiting list when parking is full and receive real-time updates about their position in line. The app aims to simplify parking by providing real-time availability and estimated wait times, making it easier for people to find parking. This project was built using **React** for the frontend and **Flask** for the backend, offering a seamless user interface for both customers and staff.
 
 ## Features
 
-- **Customer Sign-Up**: Customers can easily sign up for a spot on the waiting list.
-- **Real-Time Updates**: Stay informed about the estimated wait time and receive updates on your position in line.
-- **Admin Dashboard**: Staff can view and manage the waiting list, removing customers when they are served.
+- **Customer Sign-Up**: Users can sign up for a parking spot when availability is low.
+- **Real-Time Updates**: Stay informed about available parking spots and receive updates on your position in line.
+- **Admin Dashboard**: Staff can view and manage the waiting list, removing customers when they have parked.
 - **Responsive Design**: The application is fully responsive, ensuring it works smoothly across different devices.
-
 ## Technologies Used
 
 - **Frontend**: React
