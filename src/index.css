@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between; /* Ensure both sections are spaced evenly */
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.left-section {
+  flex: 1;
+  max-width: 600px; /* Set a max-width for the left section */
+  padding-left: 50px;
+}
+
+.left-section h1 {
+  font-size: 2.5rem; /* Increase the size of the main heading */
+  margin-bottom: 1rem;
+}
+
+.left-section .highlight {
+  color: rgb(232, 87, 14);
+}
+
+.left-section p {
+  font-size: 1.25rem; /* Increase the font size of the paragraph */
+  color: #555;
+  font-style: italic; 
+}
+
+.right-section {
+  flex: 1;
+  max-width: 600px; /* Set a max-width for the right section */
+}
